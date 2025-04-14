@@ -13,7 +13,7 @@ public class Task {
     private String description;
     private boolean completed;
 
-    // ✅ Constructors
+    //  Constructors
     public Task() {}  // Required by JPA
 
     public Task(String title, String description, boolean completed) {
@@ -22,24 +22,24 @@ public class Task {
         this.completed = completed;
     }
 
-    // ✅ Getters
+    //  Getters
     public Long getId() {
-        return id;
+        return this.id;
     }
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     public boolean isCompleted() {
-        return completed;
+        return this.completed;
     }
 
-    // ✅ Setters
+    //  Setters
     public void setId(Long id) {
         this.id = id;
     }
